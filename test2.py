@@ -5,3 +5,4 @@ def hi(x):
 
 print("hi")
 print("hello world")
+print("Please Speed I need this")

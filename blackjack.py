@@ -7,10 +7,7 @@ def load_images(card_images):
     suits = ['heart', 'club', 'diamond', 'spade']
     face_cards = ['jack', 'queen', 'king']
 
-    if tkinter.TkVersion >= 8.6:
-        extension = 'png'
-    else:
-        extension = 'ppm'
+    extension = 'png'
 
     # for each suit, retrieve the image for the cards
     for suit in suits:

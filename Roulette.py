@@ -138,7 +138,7 @@ def play_Roulette(money):
 
             #prints on if they clicked on the bored lists things like:
             #the outcome what they picked (type) and there bet and how much they made
-            print(f'''you selected TEST: {money_box["value"]} numbers {values} and the outcome that was spun is {outcome} 
+            print(f'''you selected numbers {values} and the outcome that was spun is {outcome} 
     your bet was {org_bet_amount} which got you a return of {bet_amount - org_bet_amount}''')
 
             #asks if they would like to play again requires them to hit enter if they would

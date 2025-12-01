@@ -65,7 +65,7 @@ def main():
 
             if not bet_amount.isdigit():
                 print("THATS NOT A DIGIT, PLEASE TRY AGAIN: ")
-                bet_amount = input()
+                continue
 
             bet = int(bet_amount)
 
